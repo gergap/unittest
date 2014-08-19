@@ -1,0 +1,10 @@
+#ifndef _TEST_CONFIG_H_
+#define _TEST_CONFIG_H_
+
+#cmakedefine ENABLE_COLOR
+#cmakedefine HAVE_GETOPT
+#cmakedefine ENABLE_HEXDUMP
+#cmakedefine ENABLE_BENCHMARK
+
+#endif /* _TEST_CONFIG_H_ */
+
