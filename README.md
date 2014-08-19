@@ -30,6 +30,8 @@ functionality.
 * supports terminal colors (Linux only)
 * optional benchmark functionality which allows to measure performance of
   individual tests.
+* commandline arguments to list test functions, execute individual tests and
+  datasets. (optional, requires getopt())
 * well documented
 
 # Documentation
