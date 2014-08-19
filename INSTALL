@@ -1,0 +1,20 @@
+Building instructions
+=====================
+
+The code is built using CMake. This is done typically in an out-of-source
+build using the following steps:
+
+    # create a build directory
+    mkdir bld
+    cd bld
+    # create a Makefile
+    cmake -DCMAKE_INSTALL_PREFIX=/usr/locl -DBUILD_TYPE=Release ..
+    # build
+    make
+    # execute tests
+    make test
+    # optionally build API documentation (requires doxygen)
+    make doc
+    # install
+    sudo make install
+

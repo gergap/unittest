@@ -22,12 +22,7 @@ endif()
 
 # enable testing
 enable_testing()
-# enable CDash
-include(CTest)
 
-if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
-    add_subdirectory(third-party/pthread-win32)
-endif()
 add_subdirectory(testlib)
 add_subdirectory(test)
 
