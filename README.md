@@ -55,3 +55,15 @@ A minimum example of writing a unit test is a simple as that:
         UREGISTER_TEST(test_helloworld);
     }
     UTEST_MAIN()
+
+# Installation
+
+The easiest way to get the unittest framework is using git.
+
+    git clone https://github.com/gergap/unittest
+    cd unittest
+    git submodule init
+    git submodule update
+
+Then follow the build instructions in INSTALL file.
+
