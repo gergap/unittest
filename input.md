@@ -11,7 +11,7 @@ GPLv2, see LICENSE file.
 Concept
 -------
 
-I developed this because there was no good ANSI based unittest framework
+I developed this because there was no good ANSI C based unittest framework
 available which fulfills my requirements.
 
 This unittest framework is designed portable and small so that it works also
